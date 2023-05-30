@@ -1,0 +1,35 @@
+
+body {
+    
+    background-image: url(imagenes/fondoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;          
+}
+
+.logo {
+    width: 725px;
+    height: 180px;}
+
+.container {
+    height: 250px;
+    display: flex;
+    flex-direction: row; /*row , reverse, column, colum-reverse*/
+    flex-wrap: 20px; /* gere lacompression des blocs : wraps,*/
+    gap: 20px ; /* gere espacement entre les blocs : 20px, 20px, 20px top (righ*/
+    justify-content:space-between; /*gere l'espacement entre les blocs : A NOTER */     
+}
+
+.square { /*en falla*/
+    width: 200px;
+    height: 200px;
+    background-color: ;
+    color : white;
+    margin-right: px;
+}
+
+
+.iframe {
+    align-items: center;
+
+}
